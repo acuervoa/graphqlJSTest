@@ -31,7 +31,7 @@ class RandomDie {
         return output;
     }
 }
-
+ 
 var root = {
     getDie: ({ numSides }) => {
         return new RandomDie(numSides || 6);
